@@ -2,7 +2,38 @@ k_france = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
 	
-	#Merovingians
+	21.1.1 = {
+		holder = 1
+		liege = e_roman_empire
+		name = GALLIA_LUGDUNENSIS
+	}
+	66.1.1 = {
+		holder = 2
+	}
+	78.1.1 = {
+		holder = 3
+	}
+	80.1.1 = {
+		holder = 4
+	}
+	83.1.1 = {
+		holder = 5
+	}
+	123.1.1 = {
+		holder = 6
+	}
+	126.1.1 = {
+		holder = 7
+	}
+	146.1.1 = {
+		holder = 8
+	}
+	161.1.1 = {
+		holder = 9
+	}
+	187.1.1 = {
+		holder = 10
+	}
 	481.1.1 = {
 		holder = 168673 #Clovis Ier
 		name = WEST_FRANCIA
