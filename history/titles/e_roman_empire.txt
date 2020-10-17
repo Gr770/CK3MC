@@ -1,0 +1,33 @@
+e_roman_empire = {
+	1.1.1 = {
+		holder = 1 #Augustus
+	}
+	18.9.14 = {
+		holder = 3 #Tiberius
+	}
+	18.3.37 = {
+		holder = 4 #Caligula
+	}
+	24.1.41 = {
+		holder = 5 #Claudius
+	}
+	54.10.13 = {
+		holder = 6 #Nero
+	}
+	68.6.8 = {
+		holder = 7 #Galba
+	}
+	69.1.15 = {
+		holder = 8 #Otho
+	}
+	69.4.18 = {
+		holder = 9 #Vitellius
+	}
+	69.12.21 = {
+		holder = 10 #Vespasian
+	}
+	79.6.24 = {
+		holder = 11 #Titus
+	}
+	87.9.14 = {
+		holder = 12 #Domitian

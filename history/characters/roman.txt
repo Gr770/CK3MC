@@ -1,311 +1,235 @@
-#Roman
-1 = {
-	name = "Acilius"
+1 = { #Augustus	
+	name = "Avgvstvs"
+	# Gaius Iulius Caesar Octavianus Divi Filius Augustus
+	# death date moved 10 years later in order not to be portrayed as a child
 	dynasty = 1
-	religion = "hellenism_pagan"
+	religion = "hellenic_pagan"
 	culture = "roman"
-	trait = education_diplomacy_3
+	trait = just
+	trait = brave
+	trait = ambitious
+	trait = gregarious
+	trait = diligent
+	trait = intellect_good_3
+	trait = education_diplomacy_4
 	1.1.1 = {
-		birth = yes
+		birth = "1.1.1"
+		add_spouse = 2
 	}
-	60.1.1 = {
+	24.8.19 = {
+		death = {
+			date = "24.8.19"
+			death_reason = ill
+		}
+	}
+}
+2 = { #Livia Drvsilla
+	name = "Livia"
+	female = yes
+	dynasty = 1
+	religion = "hellenic_pagan"
+	culture = "roman"
+	1.1.1 = {
+		birth = "1.1.1"
+		add_spouse = 1
+	}
+	29.9.28 = {
 		death = yes
 	}
 }
-2 = {
-	name = "Junius"
-	dynasty = 2
-	religion = "hellenism_pagan"
+3 = { 
+	name = "Tiberius"
+	dynasty = 1
+	religion = "hellenic_pagan"
 	culture = "roman"
-	trait = education_diplomacy_3
-	25.1.1 = {
+	trait = callous
+	trait = lustful
+	trait = arrogant
+	trait = brave
+	trait = just
+	trait = education_martial_3
+	mother = 2
+	1.1.1 = {
 		birth = yes
 	}
-	100.1.1 = {
+	37.3.16 = {
 		death = {
+			killer = 4
+			death_reason = death_murder_known
+		}
+	}
+}
+4 = {
+	name = "Caligula"
+	dynasty = 1
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = reveler_1
+	trait = lustful
+	trait = drunkard
+	trait = sadistic
+	trait = lunatic_1
+	trait = education_stewardship_1
+	father = #Germanicus
+	mother = #Agrippina
+	12.8.31 = {
+		birth = yes
+	}
+	41.1.24 = {
+		death = "41.1.24"
+	}
+}
+5 = {
+	name = "Claudius"
+	dynasty = 1
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = scholar
+	trait = clubfooted
+	trait = stuttering
+	trait = wrathful
+	trait = diligent
+	trait = education_diplomacy_1
+	1.1.1 = {
+		birth = yes
+	}
+	54.10.13 = {
+		death = {
+			killer = #Agrippina
 			death_reason = death_poison
 		}
 	}
 }
-3 = {
-	name = "Titus Tettienus"
-	dynasty = 3
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_learning_4
-	55.1.1 = {
-		birth = yes
-	}
-	114.1.1 = {
-		death = yes
-	}
-}
-4 = {
-	name = "Gaius Cornelius"
-	dynasty = 4
-	religion = "hellenism_pagan"
-	culture = "roman" #check
-	trait = education_martial_2
-	55.1.1 = {
-		birth = yes
-	}
-	110.1.1 = {
-		death = yes
-	}
-}
-5 = {
-	name = "Lucius Minicius"
-	dynasty = 5
-	religion = "hellenism_pagan"
-	culture = "roman" #check
-	trait = education_diplomacy_2
-	58.1.1 = {
-		birth = yes
-	}
-	115.1.1 = {
-		death = yes
-	}
-}
 6 = {
-	name = "Tiberius Claudius Quartinus"
-	religion = "hellenism_pagan"
-	culture = "roman" #check
-	trait = education_stewardship_3
-	95.1.1 = {
-		birth = yes
-	}
-	150.1.1 = {
-		death = yes
-	}
-}
-7 = {
-	name = "Titus Vitrasius"
-	dynasty = 6
-	religion = "hellenism_pagan"
-	culture = "roman" #check
-	trait = education_martial_3
-	100.1.1 = {
-		birth = yes
-	}
-	160.1.1 = {
-		death = yes
-	}
-}
-8 = {
-	name = "Titus Flavius Longinus Quintus Marcius Turbo"
-	religion = "hellenism_pagan"
-	culture = "roman" #check
-	trait = education_martial_4
-	105.1.1 = {
-		birth = yes
-	}
-	165.1.1 = {
-		death = yes
-	}
-}
-9 = {
-	name = "Gaius Popilius Carus"
-	dynasty = 7
-	religion = "hellenism_pagan"
-	culture = "roman" #check
-	trait = education_diplomacy_4
-	121.1.1 = {
-		birth = yes
-	}
-	175.1.1 = {
-		death = yes
-	}
-}
-10 = {
-	name = "Lucius Septimius"
-	dynasty = 8
-	religion = "hellenism_pagan"
+	name = "Nero"
+	# Nero Claudius Caesar Augustus Germanicus
+	dynasty = 1
+	religion = "hellenic_pagan"
 	culture = "roman"
-	trait = education_martial_4
-	father = 10
-	mother = 11
-	145.4.11 = {
+	sexuality = homosexual
+	trait = arbitrary
+	trait = zealous
+	trait = sadistic
+	trait = education_stewardship_1
+	father = 5
+	37.12.15 = {
 		birth = yes
 	}
-	211.2.4 = {
+	68.6.9 = {
 		death = {
-			death_reason = death_ill
+			death_reason = death_suicide
 		}
 	}
 }
-11 = {
-	name = "Geta"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman" #Punic
-	trait = education_diplomacy_1
-	110.1.1 = {
-		birth = yes
-	}
-	140.1.1 = {
-		add_spouse = 12
-	}
-	171.1.1 = {
-		death = yes
-	}
-}
-12 = {
-	name = "Pia"
-	female = yes
-	dynasty = 9
-	religion = "hellenism_pagan"
+7 = {
+	name = "Galba"
+	religion = "hellenic_pagan"
 	culture = "roman"
-	trait = education_diplomacy_1
-	125.1.1 = {
+	trait = greedy
+	trait = honest
+	trait = temperate
+	trait = arbitrary
+	trait = callous
+	trait = education_stewardship_3
+	3.12.24 = {
 		birth = yes
 	}
-	140.1.1 = {
-		add_spouse = 11
-	}
-	197.1.1 = {
-		death = yes
-	}
-}
-13 = {
-	name = "Geta"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman" # Carthage
-	trait = education_stewardship_2
-	father = 15
-	143.1.1 = {
-		birth = yes
-	}
-	204.1.1 = {
-		death = yes
-	}
-}
-14 = {
-	name = "Octavilla"
-	female = yes
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman" # Carthage
-	trait = education_stewardship_2
-	father = 11
-	mother = 12
-	146.1.1 = {
-		birth = yes
-	}
-	204.1.1 = {
-		death = yes
-	}
-}
-15 = {
-	name = "Lucius"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_stewardship_2
-	father = 16
-	mother = 17
-	70.1.1 = {
-		birth = yes
-	}
-	115.1.1 = {
-		death = yes
-	}
-}
-16 = {
-	name = "Macer"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	35.1.1 = {
-		birth = yes
-	}
-	100.1.1 = {
-		death = yes
-	}
-}
-17 = {
-	name = "Octavia"
-	female = yes
-	religion = "hellenism_pagan"
-	culture = "roman"
-	35.1.1 = {
-		birth = yes
-	}
-	100.1.1 = {
-		death = yes
-	}
-}
-18 = {
-	name = "Gaius Claudius"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_stewardship_2
-	father = 16
-	mother = 17
-	70.1.1 = {
-		birth = yes
-	}
-	115.1.1 = {
-		death = yes
-	}
-}
-19 = {
-	name = "Publius"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_stewardship_2
-	father = 18
-	90.1.1 = {
-		birth = yes
-	}
-	140.1.1 = {
-		death = yes
-	}
-}
-20 = {
-	name = "Gaius"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_stewardship_2
-	father = 18
-	90.1.1 = {
-		birth = yes
-	}
-	140.1.1 = {
-		death = yes
-	}
-}
-21 = {
-	name = "Septimius"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_stewardship_2
-	father = 19
-	120.1.1 = {
-		birth = yes
-	}
-	190.1.1 = {
-		death = yes
-	}
-}
-22 = {
-	name = "Gaius"
-	dynasty = 8
-	religion = "hellenism_pagan"
-	culture = "roman"
-	trait = education_stewardship_2
-	father = 21
-	175.1.1 = {
-		birth = yes
-	}
-	212.1.1 = {
+	69.1.15 = {
 		death = {
-			death_reason = death_execution
-			killer = #Caracalla
+			death_reason = death_coup ####
+		}
+	}
+}
+8 = {
+	name = "Otho"
+	religion = "hellenic_pagan"
+	culture = "roman"
+	sexuality = homosexual
+	trait = craven
+	trait = generous
+	trait = deceitful
+	trait = ambitious
+	trait = education_stewardship_1
+	32.4.28 = {
+		birth = yes
+	}
+	69.4.16 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+9 = {
+	name = "Vitellius"
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = lustful
+	trait = gluttonous
+	trait = lazy
+	trait = generous
+	trait = education_stewardship_2
+	15.9.24 = {
+		birth = yes
+	}
+	69.12.20 = {
+		death = {
+			killer = 10
+			death_reason = death_torture
+		}
+	}
+}
+10 = {
+	name = "Vespasian"
+	dynasty = 2
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = honest
+	trait = generous
+	trait = just
+	trait = education_martial_3
+	9.11.17 = {
+		birth = yes
+	}
+	79.6.23 = {
+		death = yes
+	}
+}
+11 = {
+	name = "Titus"
+	dynasty = 11
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = generous
+	trait = lustful
+	trait = just
+	trait = zealous
+	trait = education_martial_3
+	father = 10
+	39.12.30 = {
+		birth = yes
+	}
+	81.9.13 = {
+		death = yes
+	}
+}
+12= {
+	name = "Domitian"
+	dynasty = 2
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = lustful
+	trait = callous
+	trait = zealous
+	trait = deceitful
+	trait = diligent
+	trait = education_intrigue_3
+	father = 10
+	51.10.24 = {
+		birth = yes
+	}
+	96.9.18 = {
+		death = {
+			death_reason = death_murder
 		}
 	}
 }
