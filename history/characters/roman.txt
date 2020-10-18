@@ -233,3 +233,77 @@
 		}
 	}
 }
+13 = {
+	name = "Nerva"
+	dynasty = 3
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = honest
+	trait = temperate
+	trait = generous
+	trait = just
+	trait = education_stewardship_3
+	30.11.8 = {
+		birth = "30.11.8"
+	}
+	98.1.27 = {
+		death = "98.1.27"
+	}
+}
+14 = {
+	name = "Trajan"
+	dynasty = 3
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = honest
+	trait = brave
+	trait = temperate
+	trait = generous
+	trait = just
+	trait = diligent
+	trait = intellect_good_3
+	trait = education_martial_4
+	53.9.18 = {
+		birth = "53.9.18"
+	}
+	117.8.9 = {
+		death = "117.8.9"
+	}
+}
+15= {
+	name = "Hadrian"
+	dynasty = 3
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = scholar
+	trait = honest
+	trait = gregarious
+	trait = generous
+	trait = content
+	trait = diligent
+	trait = education_martial_3
+	76.1.24 = {
+		birth = "76.1.24"
+	}
+	138.7.10 = {
+		death = "138.7.10"
+	}
+}
+145277 = {
+	name = "Antoninus"
+	dynasty = 3
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = temperate
+	trait = gregarious
+	trait = generous
+	trait = diligent
+	trait = intellect_good_1
+	trait = education_diplomacy_4
+	86.9.19 = {
+		birth = "86.9.19"
+	}
+	161.3.7 = {
+		death = "161.3.7"
+	}
+}

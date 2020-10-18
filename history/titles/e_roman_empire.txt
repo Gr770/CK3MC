@@ -31,3 +31,97 @@ e_roman_empire = {
 	}
 	87.9.14 = {
 		holder = 12 #Domitian
+	}
+	96.9.18 = {
+		holder = 13 #Nerva
+	}
+	98.1.28 = {
+		holder = 14 #Trajan
+	}
+	117.8.11 = {
+		holder = 15 #Hadrian
+	}
+	138.7.10 = {
+		holder = 16 #Antoninus
+	}
+	161.3.7 = {
+		holder = 17 #Marcus Aurelius
+	}
+	180.3.17 = {
+		holder = 18 #Commodus
+	}
+	192.12.31 = {
+		holder = 19 #Pertinax
+	}
+	193.3.28 = {
+		holder = 20 #Didus Julianus
+	}
+	193.4.9 = {
+		holder = 21 #Septimus Severus
+	}
+	211.2.4 = {
+		holder = 22 #Caracalla
+	}
+	217.4.11 = {
+		holder = 23 #Macrinus
+	}
+	218.5.16 = {
+		holder = 24 #Elagabalus
+	}
+	222.3.13 = {
+		holder = 25 #Severus Alexander
+	}
+	235.3.20 = {
+		holder = 26 #Maximinus Thrax
+	}
+	238.7.29 = {
+		holder = 27 #Gordian III
+	}
+	244.2.15 = {
+		holder = 28 #Phillip the Arab
+	}
+	249.9.15 = {
+		holder = 29 #Decius
+	}
+	251.6.5 = {
+		holder = 30 #Trebonianus Gallus
+	}
+	253.9.6 = {
+		holder = 31 #Valerian
+	}
+	260.6.1 = {
+		holder = 32 #Gallienus
+	}
+	268.9.1 = {
+		holder = 33 #Claudius Gothicus
+	}
+	270.4.1 = {
+		holder = 34 #Quintillus
+	}
+	270.5.1 = {
+		holder = 35 #Aurelian
+	}
+	275.12.1 = {
+		holder = 36 #Tacitus
+	}
+	276.6.1 = {
+		holder = 37 #Probus
+	}
+	282.9.1 = {
+		holder = 38 #Carus
+	}
+	283.7.1 = {
+		holder = 39 #Numerian
+	}
+	284.11.20 = {
+		holder = 40 #Diocletian
+	}
+	305.5.1 = {
+		holder = 42 #Constantius Chlorus
+	}
+	306.7.1 = {
+		holder = 43 #Galerius
+	}
+	311.5.1 = {
+		holder = 45 #Licinius
+	}
