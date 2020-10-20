@@ -1,6 +1,12 @@
 1 = { #Julio-Claudia
 	name = "dynn_Julio"
+	culture = roman
 }
 2 = { #Flavian
 	name = "dynn_Flavius"
+	culture = roman
+}
+3 = { #Nerva-Antonine
+	name = "dynn_Nerva"
+	culture = roman
 }
