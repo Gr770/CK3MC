@@ -462,4 +462,25 @@
 			{ name = mercenary_company_redshanks }
 		}
 	}
+	norse_gael = {
+		graphical_cultures = {
+			irish_coa_gfx
+			norse_coa_gfx
+		}
+		patronym_prefix_male = "dynnpat_pre_Mac"
+		patronym_prefix_female = "dynnpat_pre_Mac"
+		dynasty_of_location_prefix = "dynnp_a"
+		prefix = yes
+		always_use_patronym = yes
+		founder_named_dynasties = yes
+		mercenary_names = {
+			{ name = mercenary_company_gallowglasses }
+		}
+		ethnicities = {
+			70 = caucasian_northern_blond
+			15 = caucasian_northern_ginger
+			10 = caucasian_northern_brown_hair
+			5 = caucasian_northern_dark_hair
+		}
+	}
 }
