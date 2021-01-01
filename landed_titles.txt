@@ -1,0 +1,390 @@
+	k_wales = {
+		d_gwynedd = {
+			c_cemais = {
+				b_talybolion = {
+				}
+				b_twrcelyn = {
+				}
+			}
+			c_aberffraw = {
+				b_llifon = {
+				}
+				b_mallthreath = {
+				}
+			}
+			c_rhosyr = {
+				b_menai = {
+				}
+				b_dindaethwy = {
+				}
+			}
+			c_llyn = {
+				b_cymydmaen = {
+				}
+				b_dinllaen = {
+				}
+				b_cafflogion = {
+				}
+			}
+			c_arfon = {
+				b_uwch_gwyrfai = {
+				}
+				b_is_gwyrfai = {
+				}
+			}
+			c_arllechwedd = {
+				b_arlechwedd_uchar = {
+				}
+				b_arlechwedd_isaf = {
+				}
+				b_nant_conwy = {
+				}
+			}
+			c_rhos = {
+				b_creuddyn = {
+				}
+				b_uwch_dulas = {
+				}
+				b_is_dulas = {
+				}
+			}
+			c_rhufoniog = {
+				b_uwch_aled = {
+				}
+				b_is_aled = {
+				}
+				b_ceinmerch = {
+				}
+			}
+			c_dyffryn_clwyd = {
+				b_colion = {
+				}
+				b_llanerch = {
+				}
+				b_dogeiling = {
+				}
+			}
+			c_teheing = {
+				b_prestatyn = {
+				}
+				b_rhuddlan = {
+				}
+				b_coleshill = {
+				}
+				b_ystrad_alyn = {
+				}
+				b_hopedale = {
+				}
+			}
+			c_dunoding = {
+				b_eifionydd = {
+				}
+				b_ardudwy_uwch = {
+				}
+				b_ardudwy_is = {
+				}
+			}
+			c_meirionydd = {
+				b_ystumanner = {
+				}
+				b_talybont = {
+				}
+				b_mawddwy = {
+				}
+			}
+		}
+		d_powys = {
+			c_penllyn = {
+				b_uwch_tryweryn = {
+				}
+				b_is_tryweryn = {
+				}
+				b_ederinion = {
+				}
+			}
+			c_powys_fadog = {
+				b_ial = {
+				}
+				b_maelor_gymraeg = {
+				}
+				b_maelor_saesneg = {
+				}
+				b_nanheudwy = {
+				}
+				b_cynllaith = {
+				}
+				b_rhaedr = {
+				}
+			}
+			c_powys_wenwynwyn = {
+				b_uwch_rhaedr = {
+				}
+				b_caereinion = {
+				}
+				b_mechain = {
+				}
+				b_deuddwr = {
+				}
+				b_ystor_marchell = {
+				}
+				b_gorddwr = {
+				}
+				b_cyfeiliog = {
+				}
+				b_arwystili = {
+				}
+				b_cydewain = {
+				}
+				b_eginlle = {
+				}
+				b_ceri = {
+				}
+			}
+		}
+		d_deheubarth {
+			c_pebidiog = {
+				b_mynyw = {
+				}
+				b_pencaer = {
+				}
+			}
+			c_rhos = {
+				b_rhos = {
+				}
+				b_daugleddau = {
+				}
+			}
+			c_penfro = {
+				b_penfro = {
+				}
+				b_arberth = {
+				}
+			}
+			c_cemais = {
+				b_uwch_nyfer = {
+				}
+				b_is_nyfer = {
+				}
+			}
+			c_emlyn = {
+				b_is_cych = {
+				|
+				b_uwch_cych = {
+				}
+			}
+			c_gwarthaf = {
+				b_elelffre = {
+				}
+				b_amgoed = {
+				}
+				b_reuliniog = {
+				}
+				b_tallacham = {
+				}
+				b_reuliniog = {
+				}
+				b_elfedd = {
+				}
+				b_penrhyn = {
+				}
+				b_ystlwyf = {
+				}
+				b_derhyllis = {
+				}
+			}
+			c_is_aeron = {
+				b_iscoed = {
+				}
+				b_gwynionydd = {
+				}
+				b_caerwedros = {
+				}
+				b_mebwynion = {
+				}
+			}
+			c_penwedding = {
+				b_geneu_glyn = {
+				}
+				b_perfedd = {
+				}
+				b_creuddyn = {
+				}
+			}
+			c_uwch_aeron = {
+				b_mefenydd = {
+				}
+				b_anhunlog = {
+				}
+				b_pennardd = {
+				}
+			}
+			c_mawr_d = {
+				b_mabudrud = {
+				}
+				b_mabelfyw = {
+				}
+				b_caio = {
+				}
+				b_mallaen = {
+				}
+				b_gwidigada = {
+				}
+				b_cethiniog = {
+				}
+				b_maenordeilo = {
+				}
+			}
+			c_cydweli = {
+				b_cydweli = {
+				}
+				b_carnwyllion = {
+				}
+			}
+			c_bychan = {
+				b_hirfym = {
+				}
+				b_perfydd = {
+				}
+				b_is_cennen = {
+				}
+			}
+		}
+		d_rhwng_gwy_a_hafren = {
+			c_maelienydd = {
+				b_knighton = {
+				}
+				b_cefnllys = {
+				}
+			}
+			c_gwrtheyrnion = {
+				b_deuddwr = {
+				}
+				b_rhaeadr = {
+				}
+			}
+			c_effael = {
+				b_uwch_mynydd = {
+				}
+				b_is_mynydd = {
+				}
+			}
+			c_buelit = {
+				b_buellt = {
+				}
+			}
+		}
+		d_brycheiniog = {
+			c_selyf = {
+				b_brwynllys = {
+				}
+				b_defynnog_s = {
+				}
+				b_pencelli_s = {
+				}
+				b_tir_ralph_s = {
+				}
+			}
+			c_mawr_b = {
+				b_defynnog_s = {
+				}
+				b_pencelli_m = {
+				}
+				b_tir_ralph_m = {
+				}
+			}
+			c_talgarth = {
+				b_talgarth = {
+				}
+				b_ystrad_yw = {
+				}
+				b_crug_hywel = {
+				}
+			}
+		}
+		d_morgannwg = {
+			c_gwyr = {
+				b_is_coed_m = {
+				}
+				b_uwch_coed_m = {
+				}
+			}
+			c_gorfynydd = {
+				b_nedd = {
+				}
+				b_afan = {
+				}
+				b_margam = {
+				}
+				b_tirarll = {
+				}
+				b_glyhn_ogwr = {
+				}
+				b_kenfig = {
+				}
+				b_newcastle = {
+				}
+				b_coety = {
+				}
+				b_ogmore = {
+				}
+			}
+			c_penychen = {
+				b_glyn = {
+				}
+				b_meisgyn = {
+				}
+				b_ruthin = {
+				}
+				b_talyfan = {
+				}
+				b_dinas_powys = {
+				}
+			}
+			c_sengheny = {
+				b_uwch_chlach = {
+				}
+				b_is_chlch = {
+				}
+				b_cibwr = {
+				}
+			}
+			c_gwynllwg = {
+				b_machen = {
+				}
+				b_magor = {
+				}
+			}
+		}
+		d_gwent = {
+			c_ewias = {
+				b_ewias = {
+				}
+			}
+			c_uwch_coed = {
+				b_uwch_coed_g = {
+				}
+				b_teltref = {
+				}
+				b_monmouth = {
+				}
+			}
+			c_ergyng = {
+				b_ergyng = {
+				}
+			}
+			c_is_coed = {
+				b_edeliglon = {
+				}
+				b_tregrug = {
+				}
+				b_usk = {
+				}
+				b_trelech = {
+				}
+				b_llbenydd = {
+				}
+				b_is_coed_g = {
+				}
+			}
+		}
+	}
