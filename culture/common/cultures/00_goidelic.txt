@@ -10,11 +10,9 @@
 		graphical_cultures = {
 			irish_coa_gfx
 		}
-		ethnicities = { 	
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+		ethnicities = {
+			10 = north_atlantid
+			30 = paleo_atlantid
 		}
 		
 		color = hsv { 0.43 0.86 0.61 }
@@ -240,10 +238,8 @@
 			scottish_coa_gfx
 		}
 		ethnicities = {
-			5 = caucasian_blond
-			30 = caucasian_ginger
-			35 = caucasian_brown_hair
-			30 = caucasian_dark_hair
+			10 = north_atlantid
+			30 = paleo_atlantid
 		}
 		
 		color = hsv { 0.50 0.90 0.57 }
@@ -466,6 +462,11 @@
 		graphical_cultures = {
 			irish_coa_gfx
 			norse_coa_gfx
+		}
+		ethnicities = {
+			20 = basic_nordid
+			10 = halstatt
+			20 = troender
 		}
 		patronym_prefix_male = "dynnpat_pre_Mac"
 		patronym_prefix_female = "dynnpat_pre_Mac"
