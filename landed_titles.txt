@@ -1,9 +1,22 @@
+d_morgannwg = {
+}
+e_britannia = {
+	color = { 172 22 22 }
+	color2 = { 255 255 255 }
+	
+	cultural_names = {
+		welsh = cn_prydein
+	}
 	k_wales = {
+		color1 = { 201 7 42 }
+		color2 = { 0 178 62 }
 		d_gwynedd = {
-			c_cemais = {
-				b_talybolion = {
+			color1 = { 163 0 0 }
+			color2 = { 255 209 40 }
+			c_rhosyr = {
+				b_menai = {
 				}
-				b_twrcelyn = {
+				b_dindaethwy = {
 				}
 			}
 			c_aberffraw = {
@@ -12,10 +25,10 @@
 				b_mallthreath = {
 				}
 			}
-			c_rhosyr = {
-				b_menai = {
+			c_cemais = {
+				b_talybolion = {
 				}
-				b_dindaethwy = {
+				b_twrcelyn = {
 				}
 			}
 			c_llyn = {
@@ -94,6 +107,8 @@
 			}
 		}
 		d_powys = {
+			color1 = { 128 0 0 }
+			color2 = { 255 239 0 }
 			c_penllyn = {
 				b_uwch_tryweryn = {
 				}
@@ -142,6 +157,8 @@
 			}
 		}
 		d_deheubarth {
+			color1 = { 255 0 0 }
+			color2 = { 252 239 60 }
 			c_pebidiog = {
 				b_mynyw = {
 				}
@@ -180,8 +197,6 @@
 				b_reuliniog = {
 				}
 				b_tallacham = {
-				}
-				b_reuliniog = {
 				}
 				b_elfedd = {
 				}
@@ -249,7 +264,7 @@
 				}
 			}
 		}
-		d_rhwng_gwy_a_hafren = {
+		d_rhwng_gwy_a_hafren = { #needs change
 			c_maelienydd = {
 				b_knighton = {
 				}
@@ -274,6 +289,15 @@
 			}
 		}
 		d_brycheiniog = {
+			capital = c_talgarth
+			c_talgarth = {
+				b_talgarth = {
+				}
+				b_ystrad_yw = {
+				}
+				b_crug_hywel = {
+				}
+			}
 			c_selyf = {
 				b_brwynllys = {
 				}
@@ -292,16 +316,8 @@
 				b_tir_ralph_m = {
 				}
 			}
-			c_talgarth = {
-				b_talgarth = {
-				}
-				b_ystrad_yw = {
-				}
-				b_crug_hywel = {
-				}
-			}
 		}
-		d_morgannwg = {
+		d_glywysing = {
 			c_gwyr = {
 				b_is_coed_m = {
 				}
@@ -388,3 +404,4 @@
 			}
 		}
 	}
+}
